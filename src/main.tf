@@ -9,8 +9,8 @@ module "azure_storage_account" {
   name                = var.md_metadata.name_prefix
   resource_group_name = azurerm_resource_group.main.name
   location            = azurerm_resource_group.main.location
-  kind                = "StorageV2"
-  tier                = "Standard"
+  kind                = "BlockBlobStorage"
+  tier                = "Premium"
   access_tier         = "Hot"
   replication_type    = var.redundancy.replication_type
   tags                = var.md_metadata.default_tags
