@@ -173,10 +173,6 @@ params:
                   oneOf:
                     - title: Zone-redundant storage
                       const: ZRS
-                    - title: Geo-zone-redundant Storage
-                      const: GZRS
-                    - title: Geo-zone-redundant storage (read-access)
-                      const: RAGZRS
               required:
                 - replication_type
     monitoring:
