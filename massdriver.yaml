@@ -146,16 +146,8 @@ params:
           oneOf:
             - title: Local-redundant storage
               const: LRS
-            - title: Geo-redundant storage
-              const: GRS
-            - title: Geo-redundant storage (read-access)
-              const: RAGRS
             - title: Zone-redundant storage
               const: ZRS
-            - title: Geo-zone-redundant storage
-              const: GZRS
-            - title: Geo-zone-redundant storage (read-access)
-              const: RAGZRS
       dependencies:
         zone_redundancy:
           oneOf:
