@@ -161,10 +161,6 @@ params:
                   oneOf:
                     - title: Local-redundant storage
                       const: LRS
-                    - title: Geo-redundant storage
-                      const: GRS
-                    - title: Geo-redundant storage (read-access)
-                      const: RAGRS
               required:
                 - replication_type
             - properties:
