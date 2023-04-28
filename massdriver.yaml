@@ -1,6 +1,6 @@
 schema: draft-07
 name: "azure-storage-account-premium"
-description: "Azure Blob storage is optimized for storing unstructured data. This storage solution is ideal for storing any files produced and consumed by your application internally."
+description: "Azure Blob storage is optimized for storing unstructured data, the Premium tier offers higher throughput and lower latency. This storage solution is ideal for storing any files produced and consumed by your application internally."
 source_url: github.com/jkoudela/azure-storage-account-premium
 access: public
 type: infrastructure
