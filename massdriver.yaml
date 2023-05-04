@@ -230,6 +230,7 @@ connections:
 artifacts:
   required:
     - azure_storage_account_blob
+    - sas
   properties:
     azure_storage_account_blob:
       $ref: massdriver/azure-storage-account-blob
